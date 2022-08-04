@@ -120,3 +120,129 @@ p{
     font-weight: lighter;
     text-shadow: 0px 0px 10px #fcfcfc,0px 0px 10px #e9e6e6,0px 0px 10px #8b8989;
 }
+    @media only screen and (max-width: 600px) {
+        @font-face {
+            src: url("Lokeya.ttf.ttf");
+            font-family: Lokeya;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lokeya', sans-serif;
+            font-size: 16px;
+        }
+        .maincon{
+            width: 300px;
+            height: 500px;
+            margin: 100px auto auto;
+            display: flex;
+            background-color: #eeebd0;
+            justify-content: start;
+            align-items: baseline;
+            flex-direction: column;
+            box-shadow: 5px 5px 10px rgb(109, 107, 107);
+        }
+        .container{
+            width: 100%;
+            height: 200px;
+            background-color: #f3f2e9;
+        }
+        .topCont{
+            width: 100%;
+            height: 300px;
+            background-color: #fafaf0;
+            display: flex;
+        }
+        .photo{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #e500a4;
+            margin: 150px 0px 0px 10px;
+            border-radius: 50%;
+            border: 5px solid #fafaf0;
+            z-index: 1;
+            background-image: url("https://scontent.fmnl17-4.fna.fbcdn.net/v/t39.30808-6/274860458_682211593223126_5928259096767127344_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHVf7Z7GE7CTW6mD98Q7B2OswMVR3msgXazAxVHeayBdsfK6FGN4iTF5-vf6nhfa539YKMnVVdjolN4Fo7guJIP&_nc_ohc=JDMOGAiEkDkAX9M075w&_nc_ht=scontent.fmnl17-4.fna&oh=00_AT_bVcVozOSSLDWaXWYezopLworfurOC1a_tMMYs5hcWaQ&oe=62EF2EAD");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box1{
+            width: 0;
+            height: 0;
+            border-left: 180px solid #57B3B9;
+            border-top: 50px solid transparent;
+            margin: 150px 0px 0px 50px;
+            position: absolute;
+            padding: 0;
+        }
+        .box2{
+            width: 0;
+            height: 0;
+            border-top: 50px solid #DB636E;
+            border-right: 45px solid transparent;
+            position: absolute;
+            z-index: 3;
+        }
+        .box3{
+            margin: 0px 0px 0px 70px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-color: #E4DBFC transparent transparent transparent;
+            border-width: 100px 20px 30px 200px;
+            position: absolute;
+      }
+      a{
+        text-decoration: none;
+        font-size: 14px;
+        position: absolute;
+        margin-top: 255px;
+        margin-left: 150px;
+        border-radius: 6px;
+        background-color: #0077b6;
+        padding: 4px 8px;
+        color: #f3f2e9;   
+        border: 2px solid #0077b6;
+        }
+        a:hover{
+            background-color: #f3f2e9;
+            color: #0077b6;
+            font-weight: bolder;
+        }
+        h1{
+            width: 200px;
+            position: absolute;
+            font-size: 36px;
+            z-index: 12;
+            text-shadow: 0px 0px 10px #fcfcfc,0px 0px 10px #e9e6e6,0px 0px 10px #8b8989;
+            margin: 30px 0px 0px 50px;
+            text-align: center;
+        }
+        h2{
+            width: 200px;
+            position: absolute;
+            margin: 210px 120px;
+            font-size: 18px;
+        }
+        .circle{
+            position: absolute;
+            background-color: #ffffff;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 4px solid #39f500;
+            z-index: 12;
+            margin: 230px 92px;
+        }
+        p{
+            margin: 20px 14px;
+            padding: 10px 12px;
+            letter-spacing: 2.5px;
+            text-align: center;
+            font-weight: lighter;
+            text-shadow: 0px 0px 10px #fcfcfc,0px 0px 10px #e9e6e6,0px 0px 10px #8b8989;
+        }
+    }
